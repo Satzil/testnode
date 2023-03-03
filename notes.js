@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-
+console.log("hello");
 const addNote=function(title,body){
     const notes = loadnotes();
     const dn = notes.filter(function(note){
